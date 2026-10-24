@@ -2,7 +2,11 @@
 
 Repository dedicato: `https://github.com/CELOTTOA/archteathos-landing`. Pubblicazione da `main`, cartella `/`. Dominio da associare nelle impostazioni Pages: `archteathos.it`. Contatto pubblico: `info@archteathos.it`.
 
-## DNS rilevati il 24 ottobre 2026
+## Stato attuale
+
+Verificato il 24 ottobre 2026: i quattro record A puntano a GitHub Pages e www è un CNAME verso celottoa.github.io. Il certificato HTTPS è approvato per archteathos.it e www.archteathos.it; Enforce HTTPS è attivo. HTTP e www reindirizzano a https://archteathos.it/. La posta conserva i record Aruba.
+
+## Rilevazione storica prima della migrazione, 24 ottobre 2026
 
 - A di archteathos.it: `62.149.128.40` (pagina di servizio Aruba).
 - CNAME di www.archteathos.it: `archteathos.it`.
@@ -33,3 +37,4 @@ Dopo la propagazione, verificare il controllo DNS su GitHub Pages, attendere il 
 - [GitHub: dominio personalizzato](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [Aruba: record A](https://guide.aruba.it/hosting-e-domini/gestione-dns/gestione-name-server-e-record/gestire-record-a)
 - [Aruba: record CNAME](https://guide.aruba.it/hosting-e-domini/gestione-dns/gestione-name-server-e-record/gestire-record-cname)
+
